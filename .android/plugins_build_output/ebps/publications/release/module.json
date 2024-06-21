@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.ebps",
+    "module": "ebps_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ebps_release-1.0.aar",
+          "url": "ebps_release-1.0.aar",
+          "size": 4612,
+          "sha512": "bcff628042772e65f7ac6432f72e0f8d00cf91d65fe695586c6806f92580974e458dd51bf2c73f879d525a8917e28b6bf02d4fbcfa480054cdf8be8fafb6bfdb",
+          "sha256": "6cd93c1ee131cbcbf19e743e10702ce0304346c3ab3af9eba6c5e4081a2c47bd",
+          "sha1": "2ac2d5ca2a2bffcdd60ff95913b333ec177beaa8",
+          "md5": "0ad0f03db318a972997ebaedf9448489"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-cdbeda788a293fa29665dc3fa3d6e63bd221cb0d"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "net.nfet.flutter.printing",
+          "module": "printing_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.connectivity",
+          "module": "connectivity_plus_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ebps_release-1.0.aar",
+          "url": "ebps_release-1.0.aar",
+          "size": 4612,
+          "sha512": "bcff628042772e65f7ac6432f72e0f8d00cf91d65fe695586c6806f92580974e458dd51bf2c73f879d525a8917e28b6bf02d4fbcfa480054cdf8be8fafb6bfdb",
+          "sha256": "6cd93c1ee131cbcbf19e743e10702ce0304346c3ab3af9eba6c5e4081a2c47bd",
+          "sha1": "2ac2d5ca2a2bffcdd60ff95913b333ec177beaa8",
+          "md5": "0ad0f03db318a972997ebaedf9448489"
+        }
+      ]
+    }
+  ]
+}
